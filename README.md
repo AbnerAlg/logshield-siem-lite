@@ -1,4 +1,4 @@
-# LogShield SIEM Lite 🛡️🔍
+# LogShield SIEM Lite 🛡️
 
 A lightweight Security Information and Event Management (SIEM) MVP designed to parse, analyze, and visualize server logs for automated security threat detection.
 
