@@ -1,4 +1,4 @@
-# LogShield SIEM Lite 🛡️
+# LogShield SIEM Lite 
 
 A lightweight Security Information and Event Management (SIEM) MVP designed to parse, analyze, and visualize server logs for automated security threat detection.
 
@@ -16,19 +16,19 @@ LogShield SIEM Lite allows system administrators and security analysts to upload
 * **Interactive Dashboard:** Visualizes critical metrics, severities, top attacking IPs, and an event timeline.
 * **Reports:** Export security findings into structured JSON files.
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 * **Backend:** Python, FastAPI, Pydantic, SQLAlchemy.
 * **Database:** PostgreSQL.
 * **Frontend:** Vue.js (Vite), Tailwind CSS, Chart.js / ApexCharts (for metrics).
 
-## 🛑 Scope & Out of Scope (MVP V1 Limits)
+##  Scope & Out of Scope (MVP V1 Limits)
 
 To ensure a realistic and functional Minimum Viable Product (MVP), this initial version (V1) focuses strictly on the core log parsing and basic security rule detection. 
 
 **The Rule:** If it does not directly help with uploading a log file and detecting brute-force or immediate anomalies, it is out of scope for V1.
 
-### 🚫 Out of Scope for V1 (Planned for Future Releases)
+###  Out of Scope for V1 (Planned for Future Releases)
 * **No Real-Time Analysis:** Logs are processed via manual file upload (`.log` or `.txt`). Real-time streaming is not supported yet.
 * **No Authentication or User Roles:** There is no login, registration, or multi-tenant admin roles. The dashboard is open for local or single-instance use.
 * **No Advanced Visualizations:** No complex charts, graphs, or geographic maps for IP tracking will be included in the V1 UI.
